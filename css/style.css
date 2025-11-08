@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+.groving, .advantages, .about {
+    margin: 10px;
+}
+
+section.groving, section.advantages  {
+
+    border: 1px solid black;
+    
+}
+
+.wraper {
+   display: flex;
+}
+
+.about {
+    display: inline-block;
+}
+
+.wraper_up {
+    text-align: center;
+}
