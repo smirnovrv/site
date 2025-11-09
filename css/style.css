@@ -11,6 +11,7 @@
 section.groving, section.advantages  {
 
     border: 1px solid black;
+     background: url(../img/main_bg.png) center center/cover no-repeat;
     
 }
 
@@ -24,5 +25,5 @@ section.groving, section.advantages  {
 
 .wraper_up {
     text-align: center;
-    background: url(../img/main_bg.png) center center/cover no-repeat;
+    /* background: url(../img/main_bg.png) center center/cover no-repeat; */
 }
