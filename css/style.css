@@ -4,8 +4,9 @@
     /* padding: 0; */
 }
 
-.groving, .advantages, .about {
+.groving, .advantages, .about, .progect, .heanding2 {
     margin: 10px;
+    font-size: 20px; 
 }
 
 section.groving, section.advantages  {
@@ -25,5 +26,4 @@ section.groving, section.advantages  {
 
 .wraper_up {
     text-align: center;
-    /* background: url(../img/main_bg.png) center center/cover no-repeat; */
 }
