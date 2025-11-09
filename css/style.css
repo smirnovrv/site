@@ -24,4 +24,5 @@ section.groving, section.advantages  {
 
 .wraper_up {
     text-align: center;
+    background: url(../img/main_bg.png) center center/cover no-repeat;
 }
