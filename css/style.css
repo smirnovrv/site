@@ -4,12 +4,17 @@
     /* padding: 0; */
 }
 
-.groving, .advantages, .about, .progect, .heanding2 {
+.heanding2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.groving, .advantages, .about, .progect, .text_single{
     margin: 10px;
     font-size: 20px; 
 }
 
-section.groving, section.advantages  {
+section.groving, section.advantages, section.progect{
 
     border: 1px solid black;
      background: url(../img/main_bg.png) center center/cover no-repeat;
@@ -24,6 +29,10 @@ section.groving, section.advantages  {
     display: inline-block;
 }
 
-.wraper_up {
+.wraper_up, .progect{
     text-align: center;
+}
+
+h5 {
+    margin-top: 10px;
 }
