@@ -36,3 +36,9 @@ section.groving, section.advantages, section.progect{
 h5 {
     margin-top: 10px;
 }
+
+.progect_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
