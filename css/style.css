@@ -38,7 +38,12 @@ h5 {
 }
 
 .progect_item {
-    display: inline-block;
-    vertical-align: top;
+    /* display: inline-block; */
+    /* vertical-align: top; */
     width: 400px;
+}
+.progect_wraper {
+    display: flex;
+    justify-content: space-around;
+    min-height: 300px;
 }
