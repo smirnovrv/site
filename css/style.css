@@ -48,11 +48,13 @@ li {
     z-index: -1;
 }
 
-section.groving, section.advantages, section.progect{
+section.groving, section.advantages, section.progect, .tg, .wt {
+    background: url(../img/main_bg.png) center center/cover no-repeat;
+}
 
-    border: 1px solid black;
-     background: url(../img/main_bg.png) center center/cover no-repeat;
-    
+section.groving, section.advantages, section.progect {
+
+    border: 1px solid black;   
 }
 
 .wraper_up, .progect {
@@ -91,4 +93,8 @@ section.groving, section.advantages, section.progect{
 
 .economic_value_group p {
     font-size: 20px;
+}
+
+.tg, .wt {
+    display: inline-block;
 }
