@@ -96,5 +96,20 @@ section.groving, section.advantages, section.progect {
 }
 
 .tg, .wt {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+
+.wt img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.wt_item {
+    margin: auto 0;
+    padding: 5px;
 }
