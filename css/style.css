@@ -48,7 +48,7 @@ li {
     z-index: -1;
 }
 
-section.groving, section.advantages, section.progect, .tg, .wt {
+section.groving, section.advantages, section.progect {
     background: url(../img/main_bg.png) center center/cover no-repeat;
 }
 
@@ -96,10 +96,8 @@ section.groving, section.advantages, section.progect {
 }
 
 .tg, .wt {
-    /* display: inline-block; */
     display: flex;
     justify-content: center;
-    /* align-content: center; */
 }
 
 
@@ -112,4 +110,5 @@ section.groving, section.advantages, section.progect {
 .wt_item {
     margin: auto 0;
     padding: 5px;
+    font-size: 28px;
 }
