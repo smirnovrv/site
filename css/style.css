@@ -40,8 +40,8 @@ li {
 
 .wraper_economic_value img{
     position: absolute;
-    top: 0;
-    left: 300px;
+    top: 100px;
+    left: 500px;
     height: 100%;
     width: auto;
     z-index: -1;
