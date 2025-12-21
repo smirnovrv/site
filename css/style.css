@@ -55,9 +55,17 @@ section.groving, section.advantages, section.progect {
     border: 1px solid black;   
 }
 
-.wraper_up, .progect {
+ .progect {
     text-align: center;
 }
+
+.wraper_up {
+    margin-top: 20px;
+    background-color: #f4f5fa;
+    text-align: center;
+}
+
+#f4f5fa
 
 .progect_wraper,  .wraper_rental,  .economic_value_container {
     display: flex;
@@ -129,4 +137,8 @@ section.groving, section.advantages, section.progect {
 .text_allot {
    font-size: 20px; 
    font-weight: 700;
+}
+
+.row {
+    text-align: justify;
 }
