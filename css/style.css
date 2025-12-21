@@ -5,9 +5,8 @@
 }
 
 /* tags */
-
-.wraper_up h2{
-    color: blueviolet;
+header{
+    height: 150px;
 }
 
 h3 {
@@ -47,7 +46,7 @@ li {
     z-index: -1;
 }
 
-section.groving, section.advantages, section.progect {
+section.groving, section.advantages, section.progect, section.wraper_up {
     background: url(../img/main_bg.png) center center/cover no-repeat;
 }
 
@@ -73,6 +72,17 @@ section.groving, section.advantages, section.progect {
 }
 
 /* divs */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .heanding2 {
     font-size: 24px; 
     margin-bottom: 10px;
