@@ -65,8 +65,6 @@ section.groving, section.advantages, section.progect {
     text-align: center;
 }
 
-#f4f5fa
-
 .progect_wraper,  .wraper_rental,  .economic_value_container {
     display: flex;
     justify-content: space-around;
@@ -140,5 +138,6 @@ section.groving, section.advantages, section.progect {
 }
 
 .row {
+    margin-top: 10px;
     text-align: justify;
 }
