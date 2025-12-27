@@ -33,26 +33,6 @@ nav {
     padding-right: 32px;
 }
 
-/* section */
-.about {
-    display: inline-block;
-}
-
-.wraper_economic_value {
-    position: relative;
-    height: 750px;
-    /* width: auto; */
-}
-
-.wraper_economic_value img{
-    position: absolute;
-    top: 100px;
-    left: 500px;
-    height: 100%;
-    width: auto;
-    z-index: -1;
-}
-
 section.groving, section.advantages, section.progect {
     background: url(../img/main_bg.png) center center/cover no-repeat;
 }
@@ -62,26 +42,41 @@ section.groving, section.advantages, section.progect {
     border: 1px solid black;   
 }
 
- .progect {
-    text-align: center;
-}
-
-.wraper_up {
-    margin-top: 20px;
-    /* background-color: #f4f5fa; */
-    text-align: center;
-}
-
-.progect_wraper,  .wraper_rental,  .economic_value_container {
-    display: flex;
-    justify-content: space-around;
-    min-height: 300px;
+/* section */
+.about {
+    display: inline-block;
 }
 
 .economic_value_container {
     display: flex;
     justify-content: space-around;
     min-height: 200px;
+}
+
+.economic_value_item {
+    width: 300px;
+}
+
+.economic_value_group p {
+    font-size: 20px;
+}
+
+.heanding2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.groving, .advantages, .about, .progect, .text_single,  .economic_value, .economic_value_item{
+    margin: 10px;
+    font-size: 20px; 
+}
+
+ .progect {
+    text-align: center;
 }
 
 .menu {
@@ -95,35 +90,50 @@ section.groving, section.advantages, section.progect {
     font-weight: 600;
 }
 
-.heanding2 {
-    font-size: 24px; 
-    margin-bottom: 10px;
-}
-
-.groving, .advantages, .about, .progect, .text_single,  .economic_value, .economic_value_item{
-    margin: 10px;
-    font-size: 20px; 
-}
-
 .progect_item {
     width: 400px;
 }
 
-.progect_item {
-    width: 400px;
+.progect_wraper,  .wraper_rental,  .economic_value_container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 300px;
 }
 
-.economic_value_item {
-    width: 300px;
-}
-
-.economic_value_group p {
-    font-size: 20px;
+.row {
+    margin-top: 10px;
+    text-align: justify;
 }
 
 .tg, .wt {
     display: flex;
     justify-content: center;
+}
+
+.text_allot {
+   font-size: 20px; 
+   font-weight: 700;
+}
+
+.wraper_economic_value {
+    position: relative;
+    /* height: 750px; */
+  
+}
+
+.wraper_economic_value img{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+}
+
+.wraper_up {
+    margin-top: 20px;
+    /* background-color: #f4f5fa; */
+    text-align: center;
 }
 
 .wt img {
@@ -136,18 +146,4 @@ section.groving, section.advantages, section.progect {
     margin: auto 0;
     padding: 5px;
     font-size: 28px;
-}
-
-.text_allot {
-   font-size: 20px; 
-   font-weight: 700;
-}
-
-.row {
-    margin-top: 10px;
-    text-align: justify;
-}
-
-.fs24 {
-    font-size: 24px;
 }
