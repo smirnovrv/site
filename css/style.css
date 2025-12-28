@@ -6,7 +6,11 @@
 
 /* tags */
 header{
-    height: 150px;
+    height: 180px;
+    position: fixed; /* Фиксированное позиционирование */
+    left: 0; right: 0; /* Вся ширина */
+    top: 0; /* Положение сверху */
+
 }
 
 h3 {
@@ -48,6 +52,10 @@ section.groving, section.advantages {
     display: inline-block;
 }
 
+.cloud{
+    margin-top: 200px;
+}
+
 .border-1 {
     border: black solid 1px;
 }
@@ -56,18 +64,8 @@ section.groving, section.advantages {
     border-radius: 5%;
 }
 
-.economic_value_container {
-    display: flex;
-    justify-content: space-around;
-    min-height: 200px;
-}
-
-.economic_value_item {
-    width: 300px;
-}
-
-.economic_value_group p {
-    font-size: 20px;
+.hat {
+    background-color: white;
 }
 
 .heanding2 {
@@ -83,7 +81,7 @@ section.groving, section.advantages {
     font-size: 20px;
 }
 
-.groving, .advantages, .about, .progect, .text_single,  .economic_value, .economic_value_item{
+.groving, .advantages, .about, .progect, .text_single {
     margin: 10px;
     font-size: 20px; 
 }
@@ -117,14 +115,13 @@ section.groving, section.advantages {
 
 .menu .menu_link {
     font-size: 15px;
-    font-weight: 600;
 }
 
 .progect_item {
     width: 400px;
 }
 
-.progect_wraper,  .wraper_rental,  .economic_value_container {
+.progect_wraper,  .wraper_rental {
     display: flex;
     justify-content: space-around;
     min-height: 300px;
