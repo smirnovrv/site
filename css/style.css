@@ -145,6 +145,11 @@ section.groving, section.advantages {
    font-size: 20px; 
    font-weight: 700;
 }
+.text_uppercase {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+}
 
 .wraper_economic_value {
     position: relative;
