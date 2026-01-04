@@ -81,24 +81,21 @@ section.groving, section.advantages {
     font-size: 20px;
 }
 
+.fs18 {
+    font-size: 18px;
+}
+
 .groving, .advantages, .about, .progect, .text_single {
     margin: 10px;
     font-size: 20px; 
 }
 
-.pattern1 {
-    border-radius: 24px;   
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, .1);
-    /* background-color: #fff;  */
-    background-color: #e3e6ed;
+.mt-50{
+    margin-top: 50px;
 }
 
-.pl-5 {
-    padding-left: 5px;
-}
-
-.pr-5{
-    padding-right: 5px;
+.mt-10{
+    margin-top: 10px;
 }
 
 .ml-5{
@@ -110,10 +107,6 @@ section.groving, section.advantages {
     margin-left: 5px;
 }
 
- .progect {
-    text-align: center;
-}
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -122,6 +115,30 @@ section.groving, section.advantages {
 
 .menu .menu_link {
     font-size: 15px;
+}
+
+.pattern-white {
+    border-radius: 24px;   
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .1);
+    background-color: #fff; 
+}
+
+.pattern-gray {
+    border-radius: 24px;   
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .1);
+    background-color: #e3e6ed;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pr-5{
+    padding-right: 5px;
+}
+
+ .progect {
+    text-align: center;
 }
 
 .progect_item {
@@ -136,11 +153,6 @@ section.groving, section.advantages {
 
 .progect .container {
      background: url(../img/main_bg.png) center center/cover no-repeat;
-}
-
-.row {
-    margin-top: 10px;
-    /* text-align: justify; */
 }
 
 .tg, .wt {
