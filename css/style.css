@@ -37,7 +37,6 @@ nav {
     padding-bottom: 5px;
 }
 
-
 section.groving, section.advantages{
     background: url(../img/main_bg.png) center center/cover no-repeat;
 }
@@ -50,10 +49,6 @@ section.groving, section.advantages {
 /* section */
 .about {
     display: inline-block;
-}
-
-.main{
-    margin-top: 200px;
 }
 
 .btn {
@@ -178,6 +173,10 @@ btn-light {
     font-size: 20px; 
 }
 
+.main{
+    margin-top: 20px;
+}
+
 .mt-50{
     margin-top: 50px;
 }
@@ -203,6 +202,10 @@ btn-light {
 
 .menu .menu_link {
     font-size: 15px;
+}
+
+.offer{
+    margin-top: 200px;
 }
 
 .pattern-white {
